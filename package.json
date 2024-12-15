@@ -1,28 +1,35 @@
 {
   "name": "thunderclient-cli",
-  "version": "0.0.3",
-  "description": "Thunder Client CLI",
+  "version": "0.0.4",
+  "description": "A CLI tool for importing and exporting collections in the Thunder Client VS Code extension.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tc": "index.js"
+    "thunderclient": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kalpana98/thunderclient-cli.git"
   },
   "keywords": [
-    "nodejs",
+    "vscode",
     "thunderclient",
     "thunder-client",
-    "@thunderclient/cli"
+    "@thunderclient/cli",
+    "api-testing",
+    "postman"
   ],
   "bugs": {
     "url": "https://github.com/Kalpana98/thunderclient-cli/issues"
   },
   "homepage": "https://github.com/Kalpana98/thunderclient-cli#readme",
   "author": "Kalpana Upadhyay <kalpanaupadhyay.dev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json"
+  ]
 }
