@@ -1,0 +1,28 @@
+{
+  "name": "thunderclient-cli",
+  "version": "0.0.3",
+  "description": "Thunder Client CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "tc": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalpana98/thunderclient-cli.git"
+  },
+  "keywords": [
+    "nodejs",
+    "thunderclient",
+    "thunder-client",
+    "@thunderclient/cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kalpana98/thunderclient-cli/issues"
+  },
+  "homepage": "https://github.com/Kalpana98/thunderclient-cli#readme",
+  "author": "Kalpana Upadhyay <kalpanaupadhyay.dev@gmail.com>",
+  "license": "MIT"
+}
