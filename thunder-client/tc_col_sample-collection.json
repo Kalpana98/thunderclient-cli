@@ -1,0 +1,21 @@
+{
+  "_id": "8a9d31b2-cd91-409d-a9e7-15bc8a0720b9",
+  "colName": "Sample Collection",
+  "created": "2024-12-18T18:54:57.658Z",
+  "sortNum": 50000,
+  "folders": [],
+  "requests": [
+    {
+      "_id": "420ba860-5e55-44b3-9359-e5d6bf53a5e1",
+      "colId": "8a9d31b2-cd91-409d-a9e7-15bc8a0720b9",
+      "containerId": "",
+      "name": "Sample Request",
+      "url": "https://jsonplaceholder.typicode.com/users",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2024-12-18T18:55:35.901Z",
+      "modified": "2024-12-18T18:58:03.229Z",
+      "headers": []
+    }
+  ]
+}

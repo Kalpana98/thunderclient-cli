@@ -43,12 +43,16 @@ if (os.platform() === "win32") {
     process.exit(1);
 }
 
+if (!fs.existsSync(thunderClientCollections)) {
+    fs.mkdirSync(thunderClientCollections, { recursive: true });
+}
+
+if (!fs.existsSync(codeCollections)) {
+    fs.mkdirSync(codeCollections, { recursive: true });
+}
+
 function importCollections() {
     try {
-        if (!fs.existsSync(thunderClientCollections)) {
-            fs.mkdirSync(thunderClientCollections, { recursive: true });
-        }
-
         fs.readdir(codeCollections, (err, files) => {
             if (err) {
                 console.error("Error reading collections folder:", err);
@@ -103,10 +107,6 @@ function importCollections() {
 
 function exportCollections() {
     try {
-        if (!fs.existsSync(codeCollections)) {
-            fs.mkdirSync(codeCollections, { recursive: true });
-        }
-
         fs.readdir(thunderClientCollections, (err, files) => {
             if (err) {
                 console.error("Error reading Thunder Client collections folder:", err);

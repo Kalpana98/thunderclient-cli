@@ -22,15 +22,18 @@ npm install -g thunderclient-cli
 
 ## Steps to use:
 
-1. Install the [VS Code Extension : Thunder Client](vscode:extension/rangav.vscode-thunder-client) and access from the left panel.
+1. Install the [VS Code Extension : Thunder Client](vscode:extension/rangav.vscode-thunder-client).
 
-2. To **Save / Export** the collections from Thunder Client into your project folder, run:
-```
-thunderclient --export
-```
-3. Test, modify, and create new collections or requests as needed. 
-
-4. To ***Load / Import*** the collections back into your Thunder Client, run:
+2. To **Load / Import** the collections into your Thunder Client, run:
 ```
 thunderclient --import
+```
+
+**Note:** Above command will create a "Sample Collection" that can be located under **Thunder Client - Collections** from the left panel within VS Code.
+
+3. Test, modify, and create new collections or requests as needed. 
+
+4. To **Save / Export** the collections from Thunder Client into your project folder, run:
+```
+thunderclient --export
 ```

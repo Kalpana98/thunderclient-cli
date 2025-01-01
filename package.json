@@ -1,6 +1,6 @@
 {
   "name": "thunderclient-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A CLI tool for importing and exporting collections in the Thunder Client VS Code extension.",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
   "files": [
     "index.js",
     "README.md",
-    "package.json"
+    "package.json",
+    "thunder-client/"
   ]
 }
